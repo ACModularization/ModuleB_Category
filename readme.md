@@ -1,0 +1,1 @@
+pod "ModuleB_Category"
