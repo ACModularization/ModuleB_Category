@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6CE7D8C5224B577500CE8BE6 /* CTMediator+ModuleB.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CE7D8C3224B577500CE8BE6 /* CTMediator+ModuleB.m */; };
 		6CF22669224B5329004974B9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CF22668224B5329004974B9 /* AppDelegate.m */; };
 		6CF2266C224B5329004974B9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CF2266B224B5329004974B9 /* ViewController.m */; };
 		6CF2266F224B5329004974B9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6CF2266D224B5329004974B9 /* Main.storyboard */; };
@@ -36,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6CE7D8C3224B577500CE8BE6 /* CTMediator+ModuleB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CTMediator+ModuleB.m"; sourceTree = "<group>"; };
+		6CE7D8C4224B577500CE8BE6 /* CTMediator+ModuleB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CTMediator+ModuleB.h"; sourceTree = "<group>"; };
 		6CF22664224B5329004974B9 /* ModuleB_Category.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ModuleB_Category.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6CF22667224B5329004974B9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		6CF22668224B5329004974B9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -89,8 +92,16 @@
 				EE94EF800C553B24CDA0E4AA /* Pods-ModuleB_Category.debug.xcconfig */,
 				89AAAA3FE5E09A14C45F2609 /* Pods-ModuleB_Category.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		6CE7D8C2224B575D00CE8BE6 /* ModuleB_Category */ = {
+			isa = PBXGroup;
+			children = (
+				6CE7D8C4224B577500CE8BE6 /* CTMediator+ModuleB.h */,
+				6CE7D8C3224B577500CE8BE6 /* CTMediator+ModuleB.m */,
+			);
+			path = ModuleB_Category;
 			sourceTree = "<group>";
 		};
 		6CF2265B224B5329004974B9 = {
@@ -118,6 +129,7 @@
 		6CF22666224B5329004974B9 /* ModuleB_Category */ = {
 			isa = PBXGroup;
 			children = (
+				6CE7D8C2224B575D00CE8BE6 /* ModuleB_Category */,
 				6CF22667224B5329004974B9 /* AppDelegate.h */,
 				6CF22668224B5329004974B9 /* AppDelegate.m */,
 				6CF2266A224B5329004974B9 /* ViewController.h */,
@@ -333,6 +345,7 @@
 			files = (
 				6CF2266C224B5329004974B9 /* ViewController.m in Sources */,
 				6CF22677224B532A004974B9 /* main.m in Sources */,
+				6CE7D8C5224B577500CE8BE6 /* CTMediator+ModuleB.m in Sources */,
 				6CF22669224B5329004974B9 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
